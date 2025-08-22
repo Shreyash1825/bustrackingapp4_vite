@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+  base: '/bustrackingapp4_vite/',
   resolve: {
     alias: { '@': path.resolve(__dirname, './src') }
   }
